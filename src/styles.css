@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Subtilus idle glow + vortex pulsacija klasė */
+.vortex-glow {
+  position: relative;
+}
+.vortex-glow::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 9999px;
+  box-shadow: 0 0 24px rgba(255, 215, 0, 0.6), 0 0 48px rgba(255, 215, 0, 0.35);
+  animation: vortex 2.2s ease-in-out infinite;
+}
+@keyframes vortex {
+  0% { box-shadow: 0 0 18px rgba(255, 215, 0, 0.45), 0 0 28px rgba(255, 215, 0, 0.25); transform: rotate(0deg); }
+  50% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.75), 0 0 60px rgba(255, 215, 0, 0.45); }
+  100% { transform: rotate(360deg); }
+}

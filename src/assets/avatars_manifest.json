@@ -1,0 +1,56 @@
+{
+  "levels": [
+    {
+      "range": [
+        1,
+        10
+      ],
+      "name": "Sparko"
+    },
+    {
+      "range": [
+        11,
+        15
+      ],
+      "name": "Embero"
+    },
+    {
+      "range": [
+        16,
+        20
+      ],
+      "name": "Aquado"
+    },
+    {
+      "range": [
+        21,
+        29
+      ],
+      "name": "Legendary"
+    },
+    {
+      "level": 30,
+      "name": "Pikachu",
+      "skins": [
+        {
+          "skin": "default",
+          "files": {
+            "1024_png": "src/assets/avatars_main/pikachu_default_1024.png",
+            "512_png": "src/assets/avatars_main/pikachu_default_512.png",
+            "1024_webp": "src/assets/avatars_main/pikachu_default_1024.webp",
+            "512_webp": "src/assets/avatars_main/pikachu_default_512.webp"
+          }
+        },
+        {
+          "skin": "vortex",
+          "files": {
+            "1024_png": "src/assets/avatars_main/pikachu_vortex_1024.png",
+            "512_png": "src/assets/avatars_main/pikachu_vortex_512.png",
+            "1024_webp": "src/assets/avatars_main/pikachu_vortex_1024.webp",
+            "512_webp": "src/assets/avatars_main/pikachu_vortex_512.webp"
+          }
+        }
+      ]
+    }
+  ]
+}
